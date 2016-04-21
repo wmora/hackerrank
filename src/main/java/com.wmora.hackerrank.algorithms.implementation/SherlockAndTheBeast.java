@@ -31,9 +31,9 @@ package com.wmora.hackerrank.algorithms.implementation;
  * <p>
  * Print the largest Decent Number having NN digits; if no such number exists, tell Sherlock by printing -1.
  */
-public class SherlockAndTheBeast {
+class SherlockAndTheBeast {
 
-    public static String largestDecentNumber(int digits) {
+    static String largestDecentNumber(int digits) {
         StringBuffer stringBuffer = new StringBuffer();
 
         int fives = digits;

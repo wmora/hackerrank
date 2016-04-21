@@ -20,9 +20,9 @@ package com.wmora.hackerrank.algorithms.implementation;
  *
  * For every test case, count and print (on a new line) the number of digits in NN that are able to evenly divide NN.
  */
-public class FindDigits {
+class FindDigits {
 
-    public static int findDigits(int n) {
+    static int findDigits(int n) {
         int[] digitsArray = integerToArray(n);
 
         int evenlyDivisibleDigits = 0;
