@@ -6,6 +6,11 @@ import java.util.List;
 class QuickSortPartition {
 
     static int[] partition(int[] ar) {
+
+        if (ar.length < 2) {
+            return ar;
+        }
+
         List<Integer> left = new ArrayList<>();
         List<Integer> equal = new ArrayList<>();
         List<Integer> right = new ArrayList<>();
